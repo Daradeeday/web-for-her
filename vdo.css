@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+video{
+    object-fit: cover;
+    position: absolute;
+    height: 100%;
+    min-height: 100vh;
+    width: 100%;
+}
+nav{
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 20rem;
+    margin-left: 5rem;
+    
+
+}
+.logocontact{
+    height: 5rem;
+    cursor: pointer;
+    opacity: 0;
+}
+.logo{
+    cursor: pointer;
+    height: 10rem;
+}
+.btn1{
+    padding: 2rem;
+    border-radius: 4rem;
+    background-color: white;
+    color: black;
+    border: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+   cursor: pointer;
+    margin-top: 30rem;
+    transition: 0.5s;
+    
+}.con{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: right;
+    margin-left: 86.3rem;
+    margin-top: 4.2rem;
+    z-index: 2;
+}
+.con:hover{
+    text-decoration: underline;
+}

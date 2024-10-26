@@ -1,0 +1,1542 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+ 
+  font-style: normal;
+}
+ /* video{
+          height: 100vh;
+          width: 100%;
+          max-width: 100vw;
+          object-fit: cover;
+          position: absolute;
+          z-index: -1;
+          right: 0;
+          left: 0;
+         
+      } */
+       
+html{
+    scroll-behavior: smooth;
+}
+@media (min-width: 390px){
+    body{
+        background-color: black;
+        overflow: hidden;
+      }
+      video{
+        height: 100vh;
+        width: 100%;
+        max-width: 100vw;
+        object-fit: cover;
+        position: absolute;
+        z-index: -1;
+        right: 0;
+        left: 0;
+       
+    }
+    .container{
+        overflow-y: scroll;
+        height: 100vh;
+        scroll-snap-type: y mandatory;
+    }
+    .con{
+        position: absolute;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        text-align: right;
+        margin-left: 86.3rem;
+        margin-top: 4.2rem;
+        z-index: 2;
+    }
+    .con:hover{
+        text-decoration: underline;
+    }
+      .hero{
+          /* width: 100%;
+          height: 100%; */
+          position: relative;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          right: 0;
+          left: 0;
+      }
+     
+      nav{
+          position: absolute;
+          z-index: 1;
+          text-align: center;
+          align-items: center;
+          justify-content: center;
+          display: flex;
+          align-items: center;
+          width: 20rem;
+          margin-left: 5rem;
+          
+      
+      }
+      .logocontact{
+          height: 5rem;
+          cursor: pointer;
+          opacity: 0;
+      }
+      .logo{
+          cursor: pointer;
+          height: 10rem;
+      }
+      .btn1{
+          padding: 2rem;
+          border-radius: 4rem;
+          background-color: white;
+          color: black;
+          border: none;
+          text-align: center;
+          align-items: center;
+          justify-content: center;
+         cursor: pointer;
+          margin-top: 30rem;
+          transition: 0.5s;
+          
+      }
+      .btn1:hover{
+         padding: 2.5rem;
+         background-color: black;
+         border: 2px;
+         border-color: white;
+         color: palevioletred;
+      }
+      .btn2{
+          padding: 2rem;
+          border-radius: 6rem;
+          background-color: white;
+          color: black;
+          border: none;
+          cursor: pointer;
+          text-align: center;
+          align-items: center;
+          justify-content: center;
+         font-size: 2rem;
+          margin-top: 3rem;
+          
+          transition: 0.5s;
+      }
+      .btn2:hover{
+         padding: 2.5rem;
+         background-color: black;
+         border: 2px;
+         border-color: white;
+         color: palevioletred;
+      }
+      .btn3{
+          padding: 2rem;
+          border-radius: 6rem;
+          background-color: white;
+          color: black;
+          border: none;
+          cursor: pointer;
+          text-align: center;
+          align-items: center;
+          justify-content: center;
+         font-size: 2rem;
+          margin-top: 22rem;
+          margin-left: 4rem;
+          transition: 0.5s;
+      }
+      .btn3:hover{
+         padding: 2.5rem;
+         background-color: black;
+         border: 2px;
+         border-color: white;
+         color: palevioletred;
+      }
+      .lip{margin-top: 5rem;
+        width: 18rem;
+       left: 0;
+       margin-left: 39rem;
+        position: absolute;
+      }
+      .hand{
+        width: 10rem;
+        margin-top: 18rem;
+        left: 0;
+        margin-left: 43rem;
+        border-radius: 10rem;
+        position: absolute;
+      }
+
+/* ------------------------------------------------------------------------------------------------ */
+
+      .sec1{
+         margin-bottom: 30rem;
+         scroll-snap-align: start;
+         
+      }
+      .sec2{
+        scroll-snap-align: start;
+          margin-bottom:30rem;
+          /* animation: appear  linear;
+          animation-timeline:  view() ;
+          animation-range: entry 50%; */
+      }
+      .sec3{
+        scroll-snap-align: start;
+        margin-bottom:30rem;
+        right: 0;
+          /* animation: appear  linear;
+          animation-timeline:  view() ;
+          animation-range: entry 50%; */
+      }
+      .sec4{
+        scroll-snap-align: start;
+          margin-bottom: 100rem;
+          /* animation: appear  linear;
+          animation-timeline:  view() ;
+          animation-range: entry 50%; */
+       }
+      .sec5{
+        scroll-snap-align: start;
+      }
+
+/* ------------------------------------------------------------------------------------------------ */
+
+      .h1{
+          color: white;
+          
+          font-size: 3rem;
+      }
+      .text1{
+          padding: 1rem;
+      }
+      .box1{
+        margin-top: 2rem;
+          width: 25rem;
+          height: 36rem;
+          
+          left: 0;
+          padding: 2rem;
+          background-color: rgba(0, 0, 0, 0.684);
+          backdrop-filter: blur(5px);
+          border-radius: 5rem;
+          
+        
+      }
+      
+      .par1{
+          margin-top: 1rem;
+          color: white;
+          left: 0;
+      }
+      .text2{
+          width: 30rem;
+          height: 35rem;
+          
+          
+          padding: 2rem;
+          
+      }
+      .box2{
+          cursor: pointer;
+          width: 100%;
+          height:20rem;
+          margin-top: 10rem;
+          
+      }
+      .serch{
+          color: palevioletred;
+          background: transparent;
+          font-size: 2rem;
+          border: none;
+          margin-top: 15.8rem;
+          margin-left: 4.3rem;
+          /* opacity: 0; */
+          padding: 2rem;
+      width: 22.3rem;
+      border-radius: 1rem;
+      height: 12rem;
+    background-color: rgba(0, 0, 0, 0.3);
+      
+      
+      }
+      .footer{
+        color: white;
+        
+        
+        position: absolute;
+       
+        width: 100%;
+        margin-top: 40rem;
+        
+        
+      }
+      ul{
+        font-size: 1rem;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+      };
+      a{
+        color: white;
+        text-decoration: none;
+      }
+      li{
+        text-align: center;
+        list-style: none;
+        cursor: pointer;
+      }
+      .l-ning{
+        margin-left: 2rem;
+      }
+      .mt-3{
+        text-align: center;
+        margin-top: 2rem;
+        font-size: 0.8rem;
+        margin-left: 1rem;
+      }
+      h6{
+        margin-bottom: 0.3rem;
+      }
+    .click-foot{
+        
+        cursor: pointer;
+        height: 8rem;
+        width: 25rem;
+        position: absolute;
+        margin-top: 17.2rem;
+        margin-left: 35rem;
+    }
+    .img-key{
+        z-index: 1;
+       
+        margin-top: 30rem;
+       width: 10rem;
+    }
+
+    
+}
+@media (max-width: 440px){
+    body{
+        background-color: black;
+      }
+      video{
+        height: 100vh;
+        width: 100%;
+        max-width: 100vw;
+        object-fit: cover;
+        position: absolute;
+        z-index: -1;
+        right: 0;
+        left: 0;
+       
+    }
+    
+      .hero{
+          /* width: 100%;
+          height: 100%; */
+          position: relative;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          right: 0;
+          left: 0;
+      }
+     
+      nav{
+          position: absolute;
+          z-index: 1;
+          text-align: center;
+          align-items: center;
+          justify-content: center;
+          display: flex;
+          align-items: center;
+          width: 20rem;
+          margin-left: 6.5rem;
+          
+      
+      }
+      .logocontact{
+          height: 5rem;
+          cursor: pointer;
+          opacity: 0;
+      }
+      .logo{
+          cursor: pointer;
+          height: 10rem;
+      }
+      .btn1{
+          padding: 2rem;
+          border-radius: 4rem;
+          background-color: white;
+          color: black;
+          border: none;
+          text-align: center;
+          align-items: center;
+          justify-content: center;
+         cursor: pointer;
+          margin-top: 30rem;
+          transition: 0.5s;
+          margin-left: 2rem;
+      }
+      .btn1:hover{
+         padding: 2.5rem;
+         background-color: black;
+         border: 2px;
+         border-color: white;
+         color: palevioletred;
+      }
+      .btn2{
+          padding: 2rem;
+          border-radius: 6rem;
+          background-color: white;
+          color: black;
+          border: none;
+          cursor: pointer;
+          text-align: center;
+          align-items: center;
+          justify-content: center;
+         font-size: 2rem;
+          margin-top: 3rem;
+          
+          transition: 0.5s;
+      }
+      .btn2:hover{
+         padding: 2.5rem;
+         background-color: black;
+         border: 2px;
+         border-color: white;
+         color: palevioletred;
+      }
+      .btn3{
+          padding: 2rem;
+          border-radius: 6rem;
+          background-color: white;
+          color: black;
+          border: none;
+          cursor: pointer;
+          text-align: center;
+          align-items: center;
+          justify-content: center;
+         font-size: 2rem;
+          margin-top: 22rem;
+          margin-left: 4rem;
+          transition: 0.5s;
+      }
+      .btn3:hover{
+         padding: 2.5rem;
+         background-color: black;
+         border: 2px;
+         border-color: white;
+         color: palevioletred;
+      }
+      .sec1{
+         margin-bottom: 30rem;
+         
+         
+      }
+      .sec4{
+          margin-bottom: 100rem;
+          /* animation: appear  linear;
+          animation-timeline:  view() ;
+          animation-range: entry 50%; */
+       }
+      .sec2{
+       
+          margin-bottom:30rem;
+          /* animation: appear  linear;
+          animation-timeline:  view() ;
+          animation-range: entry 50%; */
+      }
+      .sec3{
+        margin-bottom:30rem;
+        right: 0;
+          /* animation: appear  linear;
+          animation-timeline:  view() ;
+          animation-range: entry 50%; */
+      }
+      .h1{
+          color: white;
+          
+          font-size: 3rem;
+      }
+      .text1{
+          padding: 1rem;
+      }
+      .box1{
+        margin-top: 2rem;
+          width: 25rem;
+          height: 36rem;
+          
+          left: 0;
+          padding: 2rem;
+          background-color: rgba(0, 0, 0, 0.684);
+          backdrop-filter: blur(5px);
+          border-radius: 5rem;
+          
+        
+      }
+      
+      .par1{
+          margin-top: 1rem;
+          color: white;
+          left: 0;
+      }
+      .text2{
+          width: 30rem;
+          height: 35rem;
+          
+          
+          padding: 2rem;
+          
+      }
+      .box2{
+          cursor: pointer;
+          width: 100%;
+          height:20rem;
+          margin-top: 10rem;
+          
+      }
+      .serch{
+          color: palevioletred;
+          background: transparent;
+          font-size: 2rem;
+          border: none;
+          margin-top: 15.8rem;
+          margin-left: 4.3rem;
+          /* opacity: 0; */
+          padding: 2rem;
+      width: 22.3rem;
+      border-radius: 1rem;
+      height: 12rem;
+    background-color: rgba(0, 0, 0, 0.3);
+      
+      
+      }
+      
+}
+@media (min-width: 475px){
+    body{
+        background-color: black;
+      }
+
+      .hero{
+          /* width: 100%;
+          height: 100%; */
+          position: relative;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          right: 0;
+          left: 0;
+      }
+      video{
+          height: 100vh;
+          width: 100%;
+          max-width: 100vw;
+          object-fit: cover;
+          position: absolute;
+          z-index: -1;
+          right: 0;
+          left: 0;
+         
+      }
+      nav{
+          position: absolute;
+          z-index: 1;
+          text-align: center;
+          align-items: center;
+          justify-content: center;
+          display: flex;
+          align-items: center;
+          width: 20rem;
+          margin-left: 8rem;
+          
+      
+      }
+      .logocontact{
+          height: 5rem;
+          cursor: pointer;
+          opacity: 0;
+      }
+      .logo{
+          cursor: pointer;
+          height: 10rem;
+      }
+      .btn1{
+          padding: 2rem;
+          border-radius: 4rem;
+          background-color: white;
+          color: black;
+          border: none;
+          text-align: center;
+          align-items: center;
+          justify-content: center;
+         cursor: pointer;
+          margin-top: 30rem;
+          transition: 0.5s;
+          margin-left: 2rem;
+      }
+      .btn1:hover{
+         padding: 2.5rem;
+         background-color: black;
+         border: 2px;
+         border-color: white;
+         color: palevioletred;
+      }
+      .btn2{
+          padding: 2rem;
+          border-radius: 6rem;
+          background-color: white;
+          color: black;
+          border: none;
+          cursor: pointer;
+          text-align: center;
+          align-items: center;
+          justify-content: center;
+         font-size: 2rem;
+          margin-top: 3rem;
+          
+          transition: 0.5s;
+      }
+      .btn2:hover{
+         padding: 2.5rem;
+         background-color: black;
+         border: 2px;
+         border-color: white;
+         color: palevioletred;
+      }
+      .btn3{
+          padding: 2rem;
+          border-radius: 6rem;
+          background-color: white;
+          color: black;
+          border: none;
+          cursor: pointer;
+          text-align: center;
+          align-items: center;
+          justify-content: center;
+         font-size: 2rem;
+          margin-top: 12rem;
+          margin-left: 4rem;
+          transition: 0.5s;
+      }
+      .btn3:hover{
+         padding: 2.5rem;
+         background-color: black;
+         border: 2px;
+         border-color: white;
+         color: palevioletred;
+      }
+      .sec1{
+         margin-bottom: 15rem;
+         
+         
+      }
+      .sec4{
+          margin-bottom: 50rem;
+          /* animation: appear  linear;
+          animation-timeline:  view() ;
+          animation-range: entry 50%; */
+       }
+      .sec2{
+       text-align: center;
+          margin-bottom:8rem;
+          /* animation: appear  linear;
+          animation-timeline:  view() ;
+          animation-range: entry 50%; */
+      }
+      .sec3{
+        margin-bottom:8rem;
+          /* animation: appear  linear;
+          animation-timeline:  view() ;
+          animation-range: entry 50%; */
+      }
+      .h1{
+          color: white;
+          
+          font-size: 3rem;
+      }
+      .text1{
+          padding: 1rem;
+      }
+      .box1{
+        margin-top: 2rem;
+          width: 25rem;
+          height: 36rem;
+          margin-left: 2rem;
+          left: 0;
+          padding: 2rem;
+          background-color: rgba(0, 0, 0, 0.684);
+          backdrop-filter: blur(5px);
+          border-radius: 5rem;
+          
+        
+      }
+      
+      .par1{
+          margin-top: 1rem;
+          color: white;
+          left: 0;
+      }
+      .text2{
+          width: 30rem;
+          height: 35rem;
+          
+          
+          padding: 2rem;
+          
+      }
+      .box2{
+          cursor: pointer;
+          width: 100%;
+          height:20rem;
+          margin-top: 10rem;
+          
+      }
+      .serch{
+          color: palevioletred;
+          background: transparent;
+          font-size: 2rem;
+          border: none;
+          margin-top: 11.3rem;
+          margin-left: 4.3rem;
+          /* opacity: 0; */
+          padding: 2rem;
+      width: 18.2rem;
+      border-radius: 1rem;
+      height: 8.7rem;
+    background-color: rgba(0, 0, 0, 0.3);
+      
+      
+      }
+      
+}
+@media (min-width: 640px){
+    body{
+        background-color: black;
+      }
+
+      .hero{
+          /* width: 100%;
+          height: 100%; */
+          position: relative;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          right: 0;
+          left: 0;
+          left: 0
+          ;
+      }
+      video{
+          height: 100vh;
+          width: 100%;
+          max-width: 100vw;
+          object-fit: cover;
+          position: absolute;
+          z-index: -1;
+          right: 0;
+          left: 0;
+         
+      }
+      nav{
+          position: absolute;
+          z-index: 1;
+          
+          display: flex;
+         
+          margin-left: 13.5rem;
+          left: 0;
+          background-color: transparent;
+      
+      }
+      .logocontact{
+          height: 5rem;
+          cursor: pointer;
+          opacity: 0;
+      }
+      .logo{
+          cursor: pointer;
+          height: 10rem;
+      }
+      .btn1{
+          padding: 2rem;
+          border-radius: 4rem;
+          background-color: white;
+          color: black;
+          border: none;
+          text-align: center;
+          align-items: center;
+          justify-content: center;
+         cursor: pointer;
+          margin-top: 30rem;
+          transition: 0.5s;
+          margin-left: 2rem;
+      }
+      .btn1:hover{
+         padding: 2.5rem;
+         background-color: black;
+         border: 2px;
+         border-color: white;
+         color: palevioletred;
+      }
+      .btn2{
+          padding: 2rem;
+          border-radius: 6rem;
+          background-color: white;
+          color: black;
+          border: none;
+          cursor: pointer;
+          text-align: center;
+          align-items: center;
+          justify-content: center;
+         font-size: 2rem;
+          margin-top: 3rem;
+          
+          transition: 0.5s;
+      }
+      .btn2:hover{
+         padding: 2.5rem;
+         background-color: black;
+         border: 2px;
+         border-color: white;
+         color: palevioletred;
+      }
+      .btn3{
+          padding: 2rem;
+          border-radius: 6rem;
+          background-color: white;
+          color: black;
+          border: none;
+          cursor: pointer;
+          text-align: center;
+          align-items: center;
+          justify-content: center;
+         font-size: 2rem;
+          margin-top: 12rem;
+          margin-left: 4rem;
+          transition: 0.5s;
+      }
+      .btn3:hover{
+         padding: 2.5rem;
+         background-color: black;
+         border: 2px;
+         border-color: white;
+         color: palevioletred;
+      }
+      .sec1{
+         margin-bottom: 15rem;
+         
+         
+      }
+      .sec4{
+          margin-bottom: 50rem;
+          /* animation: appear  linear;
+          animation-timeline:  view() ;
+          animation-range: entry 50%; */
+       }
+      .sec2{
+       text-align: center;
+          margin-bottom:8rem;
+          /* animation: appear  linear;
+          animation-timeline:  view() ;
+          animation-range: entry 50%; */
+      }
+      .sec3{
+        margin-bottom:8rem;
+          /* animation: appear  linear;
+          animation-timeline:  view() ;
+          animation-range: entry 50%; */
+      }
+      .h1{
+          color: white;
+          
+          font-size: 3rem;
+      }
+      .text1{
+          padding: 1rem;
+      }
+      .box1{
+        margin-top: 2rem;
+          width: 25rem;
+          height: 36rem;
+          margin-left: 8rem;
+          left: 0;
+          padding: 2rem;
+          background-color: rgba(0, 0, 0, 0.684);
+          backdrop-filter: blur(5px);
+          border-radius: 5rem;
+          
+        
+      }
+      
+      .par1{
+          margin-top: 1rem;
+          color: white;
+          left: 0;
+      }
+      .text2{
+          width: 30rem;
+          height: 35rem;
+          
+          
+          padding: 2rem;
+          
+      }
+      .box2{
+          cursor: pointer;
+          width: 100%;
+          height:20rem;
+          margin-top: 10rem;
+          
+      }
+      .serch{
+          color: palevioletred;
+          background: transparent;
+          font-size: 2rem;
+          border: none;
+          margin-top: 11.3rem;
+          margin-left: 4.3rem;
+          /* opacity: 0; */
+          padding: 2rem;
+      width: 18.2rem;
+      border-radius: 1rem;
+      height: 8.7rem;
+    background-color: rgba(0, 0, 0, 0.3);
+      
+      
+      }
+}
+@media (min-width: 768px){
+    body{
+        background-color: black;
+      }
+
+      .hero{
+          /* width: 100%;
+          height: 100%; */
+          position: relative;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          right: 0;
+          left: 0;
+          left: 0
+          ;
+      }
+      video{
+          height: 100vh;
+          width: 100%;
+          max-width: 100vw;
+          object-fit: cover;
+          position: absolute;
+          z-index: -1;
+          right: 0;
+          left: 0;
+         
+      }
+      nav{
+          position: absolute;
+          z-index: 1;
+          
+          display: flex;
+         
+          margin-left: 18rem;
+          left: 0;
+          background-color: transparent;
+      
+      }
+      .logocontact{
+          height: 5rem;
+          cursor: pointer;
+          
+      }
+      .logo{
+          cursor: pointer;
+          height: 10rem;
+      }
+      .btn1{
+          padding: 2rem;
+          border-radius: 4rem;
+          background-color: white;
+          color: black;
+          border: none;
+          text-align: center;
+          align-items: center;
+          justify-content: center;
+         cursor: pointer;
+          margin-top: 30rem;
+          transition: 0.5s;
+          margin-left: 2rem;
+      }
+      .btn1:hover{
+         padding: 2.5rem;
+         background-color: black;
+         border: 2px;
+         border-color: white;
+         color: palevioletred;
+      }
+      .btn2{
+          padding: 2rem;
+          border-radius: 6rem;
+          background-color: white;
+          color: black;
+          border: none;
+          cursor: pointer;
+          text-align: center;
+          align-items: center;
+          justify-content: center;
+         font-size: 2rem;
+          margin-top: 3rem;
+          
+          transition: 0.5s;
+      }
+      .btn2:hover{
+         padding: 2.5rem;
+         background-color: black;
+         border: 2px;
+         border-color: white;
+         color: palevioletred;
+      }
+      .btn3{
+          padding: 2rem;
+          border-radius: 6rem;
+          background-color: white;
+          color: black;
+          border: none;
+          cursor: pointer;
+          text-align: center;
+          align-items: center;
+          justify-content: center;
+         font-size: 2rem;
+          margin-top: 12rem;
+          margin-left: 4rem;
+          transition: 0.5s;
+      }
+      .btn3:hover{
+         padding: 2.5rem;
+         background-color: black;
+         border: 2px;
+         border-color: white;
+         color: palevioletred;
+      }
+      .sec1{
+         margin-bottom: 15rem;
+         
+         
+      }
+      .sec4{
+          margin-bottom: 50rem;
+          /* animation: appear  linear;
+          animation-timeline:  view() ;
+          animation-range: entry 50%; */
+       }
+      .sec2{
+       text-align: center;
+          margin-bottom:8rem;
+          /* animation: appear  linear;
+          animation-timeline:  view() ;
+          animation-range: entry 50%; */
+      }
+      .sec3{
+        margin-bottom:8rem;
+          /* animation: appear  linear;
+          animation-timeline:  view() ;
+          animation-range: entry 50%; */
+      }
+      .h1{
+          color: white;
+          
+          font-size: 3rem;
+      }
+      .text1{
+          padding: 1rem;
+      }
+      .box1{
+        margin-top: 2rem;
+          width: 25rem;
+          height: 36rem;
+          margin-left: 12rem;
+          left: 0;
+          padding: 2rem;
+          background-color: rgba(0, 0, 0, 0.684);
+          backdrop-filter: blur(5px);
+          border-radius: 5rem;
+          
+        
+      }
+      
+      .par1{
+          margin-top: 1rem;
+          color: white;
+          left: 0;
+      }
+      .text2{
+          width: 30rem;
+          height: 35rem;
+          
+          
+          padding: 2rem;
+          
+      }
+      .box2{
+          cursor: pointer;
+          width: 100%;
+          height:20rem;
+          margin-top: 10rem;
+          
+      }
+      .serch{
+          color: palevioletred;
+          background: transparent;
+          font-size: 2rem;
+          border: none;
+          margin-top: 11.3rem;
+          margin-left: 4.3rem;
+          /* opacity: 0; */
+          padding: 2rem;
+      width: 18.2rem;
+      border-radius: 1rem;
+      height: 8.7rem;
+    background-color: rgba(0, 0, 0, 0.3);
+      
+      
+      }
+
+}
+@media (min-width: 1024px){
+    body{
+        background-color: black;
+      }
+
+      .hero{
+          /* width: 100%;
+          height: 100%; */
+          position: relative;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          right: 0;
+          left: 0;
+          left: 0
+          ;
+      }
+      video{
+          height: 100vh;
+          width: 100%;
+          max-width: 100vw;
+          
+          position: absolute;
+          z-index: -1;
+          right: 0;
+          left: 0;
+         
+      }
+      nav{
+          position: absolute;
+          z-index: 1;
+          
+          display: flex;
+         
+          margin-left: 35rem;
+          left: 0;
+          background-color: transparent;
+      
+      }
+      .logocontact{
+          height: 5rem;
+          cursor: pointer;
+          margin-left: 17rem;
+          opacity: 1;
+      }
+      .logo{
+          cursor: pointer;
+          height: 10rem;
+      }
+      .btn1{
+          padding: 2rem;
+          border-radius: 4rem;
+          background-color: white;
+          color: black;
+          border: none;
+          text-align: center;
+          align-items: center;
+          justify-content: center;
+         cursor: pointer;
+          margin-top: 30rem;
+          transition: 0.5s;
+          margin-left: 2rem;
+      }
+      .btn1:hover{
+         padding: 2.5rem;
+         background-color: black;
+         border: 2px;
+         border-color: white;
+         color: palevioletred;
+      }
+      .btn2{
+          padding: 2rem;
+          border-radius: 6rem;
+          background-color: white;
+          color: black;
+          border: none;
+          cursor: pointer;
+          text-align: center;
+          align-items: center;
+          justify-content: center;
+         font-size: 2rem;
+          margin-top: 3rem;
+          
+          transition: 0.5s;
+      }
+      .btn2:hover{
+         padding: 2.5rem;
+         background-color: black;
+         border: 2px;
+         border-color: white;
+         color: palevioletred;
+      }
+      .btn3{
+          padding: 2rem;
+          border-radius: 6rem;
+          background-color: white;
+          color: black;
+          border: none;
+          cursor: pointer;
+          text-align: center;
+          align-items: center;
+          justify-content: center;
+         font-size: 2rem;
+          margin-top: 12rem;
+          margin-left: 5rem;
+          transition: 0.5s;
+      }
+      .btn3:hover{
+         padding: 2.5rem;
+         background-color: black;
+         border: 2px;
+         border-color: white;
+         color: palevioletred;
+      }
+      .sec1{
+         margin-bottom: 10rem;
+         
+         
+      }
+      .sec4{
+          margin-bottom: 100rem;
+          /* animation: appear  linear;
+          animation-timeline:  view() ;
+          animation-range: entry 50%; */
+       }
+      .sec2{
+       text-align: center;
+          margin-bottom:30rem;
+          /* animation: appear  linear;
+          animation-timeline:  view() ;
+          animation-range: entry 50%; */
+      }
+      .sec3{
+        margin-bottom:30rem;
+          /* animation: appear  linear;
+          animation-timeline:  view() ;
+          animation-range: entry 50%; */
+      }
+      .h1{
+          color: white;
+          
+          font-size: 3rem;
+      }
+      .text1{
+          padding: 1rem;
+      }
+      .box1{
+        margin-top: 2rem;
+          width: 50rem;
+          height: 45rem;
+          margin-left: 7.5rem;
+          left: 0;
+          padding: 2rem;
+          background-color: rgba(0, 0, 0, 0.684);
+          backdrop-filter: blur(5px);
+          border-radius: 5rem;
+          
+        
+      }
+      
+      .par1{
+          margin-top: 1rem;
+          color: white;
+          left: 0;
+      }
+      .text2{
+          width: 30rem;
+          height: 35rem;
+          
+          
+          padding: 2rem;
+          
+      }
+      .box2{
+          cursor: pointer;
+          width: 100%;
+          height:20rem;
+          margin-top: 10rem;
+          
+      }
+      .serch{
+          color: palevioletred;
+          background: transparent;
+          font-size: 2rem;
+          border: none;
+          margin-top: 15.3rem;
+          margin-left: 6.3rem;
+          /* opacity: 0; */
+          padding: 2rem;
+      width: 23.8rem;
+      border-radius: 1rem;
+      height: 11.5rem;
+    background-color: rgba(0, 0, 0, 0.3);
+      
+      
+      }
+
+}
+@media (min-width: 1280px){
+    html{
+        scroll-behavior: smooth;
+    }
+    
+    video{
+        max-width: 100%;
+        min-height: 100vh;
+        position: absolute;
+        z-index: -1;
+        right: 0;
+        left: 0;
+       
+    }
+    .londrina-sketch-regular {
+        
+        font-weight: 400;
+        font-style: normal;
+      }
+    
+    body{
+      background-color: black;
+      top:0;
+    }
+    /* .container{
+        scroll-snap-type: y mandatory;
+        overflow-y: scroll;
+        height: 100vh;
+    } */
+    .hero{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    }
+   
+    nav{
+        position: absolute;
+        z-index: 1;
+        justify-content:space-between;
+        display: flex;
+        align-items: center;
+        width: 90rem;
+        
+        
+    margin-left: 2rem;
+    }
+    .logocontact{
+        height: 8rem;
+        cursor: pointer;
+    }
+    .logo{
+        cursor: pointer;
+        height: 10rem;
+    }
+    .btn1{
+        padding: 2rem;
+        border-radius: 4rem;
+        background-color: white;
+        color: black;
+        border: none;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+       cursor: pointer;
+        margin-top: 30rem;
+        transition: 0.5s;
+    }
+    .btn1:hover{
+       padding: 2.5rem;
+       background-color: black;
+       border: 2px;
+       border-color: white;
+       color: palevioletred;
+    }
+    .btn2{
+        padding: 2rem;
+        border-radius: 6rem;
+        background-color: white;
+        color: black;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+       font-size: 2rem;
+        margin-top: 3rem;
+        
+        transition: 0.5s;
+    }
+    .btn2:hover{
+       padding: 2.5rem;
+       background-color: black;
+       border: 2px;
+       border-color: white;
+       color: palevioletred;
+    }
+    .btn3{
+        padding: 2rem;
+        border-radius: 6rem;
+        background-color: white;
+        color: black;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+       font-size: 2rem;
+        margin-top: 12rem;
+        margin-left: 4rem;
+        transition: 0.5s;
+    }
+    .btn3:hover{
+       padding: 2.5rem;
+       background-color: black;
+       border: 2px;
+       border-color: white;
+       color: palevioletred;
+    }
+    .sec1{
+       margin-bottom: 0.5rem;
+       
+       
+    }
+    .sec4{
+        margin-bottom: 0.5rem;
+        /* animation: appear  linear;
+        animation-timeline:  view() ;
+        animation-range: entry 50%; */
+     }
+    .sec2{
+        margin-bottom:0.5rem;
+        /* animation: appear  linear;
+        animation-timeline:  view() ;
+        animation-range: entry 50%; */
+    }
+    .sec3{
+        margin-bottom: 0.5rem;
+        /* animation: appear  linear;
+        animation-timeline:  view() ;
+        animation-range: entry 50%; */
+    }
+    .h1{
+        color: white;
+        text-align: center;
+        font-size: 3rem;
+    }
+    .text1{
+        
+        width: 60rem;
+        height: 50rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        /* margin-left: 18rem; */
+        padding: 2rem;
+    }
+    .box1{
+        width: 50rem;
+        height: 40rem;
+        background-color: rgba(255, 255, 255, 0.3);
+        filter: blur(5px);
+        backdrop-filter: blur(5px);
+        margin-left: 22rem;
+        margin-top: 2rem;
+        border-radius: 5rem;
+        padding: 2rem;
+        transition: 0.5s;
+    }
+    .box1:hover{
+        filter: none;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+    .par1{
+        margin-top: 1rem;
+        color: white;
+    }
+    .text2{
+        width: 30rem;
+        height: 35rem;
+        
+        margin-left: 35rem;
+        padding: 2rem;
+        
+    }
+    .box2{
+        cursor: pointer;
+        width: 100%;
+        height:20rem;
+        margin-top: 10rem;
+        
+    }
+    .serch{
+        color: palevioletred;
+        background: transparent;
+        font-size: 2rem;
+        border: none;
+        margin-top: 11rem;
+        margin-left: 6rem;
+        /* opacity: 0; */
+        padding: 2rem;
+    width: 22.7rem;
+    border-radius: 2rem;
+    height: 11rem;
+    transition: 0.5s;
+    opacity: 0;
+    
+    }
+    .serch:hover{
+        backdrop-filter: blur(5px);
+        background: rgba(255, 255, 255, 0.452);
+        opacity: 100;
+    }
+    
+    .img-key{
+        margin-top: 15rem;
+        transition: 0.5s;
+        width: 30rem;
+        margin-left: 1rem;
+    }
+
+    .img-key:hover{
+        margin-top: 7rem;
+        width: 60rem;
+        
+    }
+    /* ------------------------------------------------------------------------------ */
+    
+}
+@media (min-width: 1536px){
+
+}
